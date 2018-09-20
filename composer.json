@@ -8,7 +8,7 @@
       "email": "499873958@qq.com"
     }
   ],
-  "version": "0.3",
+  "version": "0.3.1",
   "require": {
     "ext-swoole": ">=1.8",
     "guzzlehttp/guzzle": "~6.2.1",

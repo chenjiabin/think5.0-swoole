@@ -11,7 +11,7 @@
   "version": "0.3",
   "require": {
     "ext-swoole": ">=1.8",
-    "guzzlehttp/guzzle": "^6.3",
+    "guzzlehttp/guzzle": "~6.2.1",
     "jeremeamia/superclosure": "^2.4",
     "xavier/xcron-expression": "^0.11"
   },

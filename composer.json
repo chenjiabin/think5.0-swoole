@@ -1,6 +1,6 @@
 {
-  "name": "xaviertony/xavier-swoole",
-  "description": "Swoole extend for thinkphp5",
+  "name": "chenjiabin/think5.0-swoole",
+  "description": "Swoole extend for thinkphp5.0",
   "license": "Apache-2.0",
   "authors": [
     {
@@ -8,6 +8,7 @@
       "email": "499873958@qq.com"
     }
   ],
+  "version": "0.3",
   "require": {
     "ext-swoole": ">=1.8",
     "guzzlehttp/guzzle": "^6.3",

@@ -14,4 +14,5 @@ if (!defined("IS_SWOOLE")){
 // 注册命令行指令
 \think\Console::addDefaultCommands([
     '\\xavier\\swoole\\command\\Swoole',
+    '\\xavier\\swoole\\command\\Server',
 ]);

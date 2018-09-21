@@ -30,7 +30,7 @@
     }
   },
   "scripts": {
-    "post-install-cmd": [
+    "post-package-install": [
         "@php think swoole:config"
     ]
   }

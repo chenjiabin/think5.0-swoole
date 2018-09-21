@@ -15,4 +15,5 @@ if (!defined("IS_SWOOLE")){
 \think\Console::addDefaultCommands([
     '\\xavier\\swoole\\command\\Swoole',
     '\\xavier\\swoole\\command\\Server',
+    '\\xavier\\swoole\\command\\Config',
 ]);

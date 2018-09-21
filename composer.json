@@ -28,10 +28,5 @@
       "swoole": "src/config/swoole.php",
       "swoole_timer":"src/config/timer.php"
     }
-  },
-  "scripts": {
-    "post-package-install": [
-        "@php think swoole:config"
-    ]
   }
 }

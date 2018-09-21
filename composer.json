@@ -32,6 +32,6 @@
   "scripts": {
     "post-install-cmd": [
         "@php think swoole:config"
-    ],
+    ]
   }
 }

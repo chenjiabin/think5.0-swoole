@@ -9,7 +9,6 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-use think\Env;
 
 // +----------------------------------------------------------------------
 // | Swoole设置 php think swoole:server 命令行下有效
@@ -25,8 +24,8 @@ return [
 
     // 可以支持swoole的所有配置参数
     'daemonize'    => false,
-    'pid_file'     => Env::get('runtime_path') . 'swoole_server.pid',
-    'log_file'     => Env::get('runtime_path') . 'swoole_server.log',
+    'pid_file'     => RUNTIME_PATH . 'swoole_server.pid',
+    'log_file'     => RUNTIME_PATH . 'swoole_server.log',
 
     // 事件回调定义
     'onOpen'       => function ($server, $request) {
